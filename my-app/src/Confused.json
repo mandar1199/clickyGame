@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "image": "/images/cynthia.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "/images/mitch.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "/images/tony.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "/images/darla.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "/images/o'bannion.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "/images/wooderson.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "/images/pickford.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "/images/jodi.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "/images/pink.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "/images/michelle.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "/images/rory.jpg",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "/images/mike.jpg",
+      "clicked": false
+    }
+  ]
