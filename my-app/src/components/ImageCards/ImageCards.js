@@ -1,10 +1,10 @@
 import React from "react";
-import "./ImageCard.css";
+import "./ImageCards.css";
 
 const ImageCards = props => (
     <div className="card" onClick={props.imageClicked}>
         <div className="img-container">
-            <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} />
+            <img alt={props.image.replace(".jpg", "")} src={ props.image} />
         </div>
     </div>
 );

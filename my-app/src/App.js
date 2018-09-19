@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Footer from "./components/Footer";
 import ImageCards from "./components/ImageCards";
-import Confused from "/Confused.json";
+import Confused from "./Confused.json";
 import "./App.css";
 
 
@@ -40,7 +40,7 @@ class App extends Component {
       },
       () => {
         if (this.state.correctGuesses === 12) {
-          alert("You did it man! You won!");
+          alert("Alright, alright, alright!");
           this.setState({
             Confused: Confused.sort(function(a, b) {return 0.5 - Math.random()}),
             DazedClicked: [],
@@ -56,15 +56,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar bestScore={this.state.bestScore} />
+        {/* <img src="./components/ImageCards/images/cynthia.jpg"></img> */}
+        <Navbar correctGuesses={this.state.correctGuesses} />
         <Jumbotron />
         <div className="wrapper">
-          {this.state.DazedConfused.map(DazedConfused => (
+          {this.state.Confused.map(Confused => (
             <ImageCards 
               DazedClicked={this.DazedClicked}
-              id={DazedConfused.id}
-              key={DazedConfused.id}
-              image={DazedConfused.image}
+              id={Confused.id}
+              key={Confused.id}
+              image={Confused.image}
             />
           ))}
         </div>
