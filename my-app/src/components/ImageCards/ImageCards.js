@@ -2,9 +2,11 @@ import React from "react";
 import "./ImageCards.css";
 
 const ImageCards = props => (
-    <div className="card" onClick={props.imageClicked}>
+    <div className="card">
         <div className="img-container">
-            <img alt={props.image.replace(".jpg", "")} src={ props.image} />
+            <a onClick={() => props.imageClicked(props.Confused)}>
+                <img alt={props.Confused} src={props.image} />
+            </a>
         </div>
     </div>
 );

@@ -8,17 +8,24 @@
   }
   
   .itemCenter {
-      width: 70%;
+      width: 60%;
+      text-align: center;
   }
   
   .itemRight {
-    width: 15%;
+    width: 25%;
   }
   
   .navbar {
     margin-top: -24px;
     background: #490549;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 75px;
   }
   
   li {
